@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.8">
+  <diagram name="Page-1" id="adGEc_nTsVdC9XLiCqks">
+    <mxGraphModel dx="549" dy="431" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xaW593ikv_hJflvQ_vIK-16" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="370" y="460" width="410" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-56" value="" style="group" vertex="1" connectable="0" parent="xaW593ikv_hJflvQ_vIK-16">
+          <mxGeometry x="-50" y="-180" width="410" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#242426);strokeColor=light-dark(#242426,#242426);movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-56">
+          <mxGeometry width="410" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-36" value="" style="group" vertex="1" connectable="0" parent="xaW593ikv_hJflvQ_vIK-56">
+          <mxGeometry y="9.11111111111111" width="181" height="173.11111111111111" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-6" value="API Endpoint - ADMIN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-36">
+          <mxGeometry x="21" width="160" height="27.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-19" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="xaW593ikv_hJflvQ_vIK-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="21" y="26.968888888888884" as="sourcePoint" />
+            <mxPoint x="200" y="27.333333333333332" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-29" value="" style="group" vertex="1" connectable="0" parent="xaW593ikv_hJflvQ_vIK-36">
+          <mxGeometry x="1" y="36.44444444444444" width="140" height="45.55555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-18" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/addMusic&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-29">
+          <mxGeometry width="120" height="27.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-28" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(236, 97, 81));&quot;&gt;/deleteMusic&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-29">
+          <mxGeometry y="18.22222222222222" width="140" height="27.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-38" value="" style="group" vertex="1" connectable="0" parent="xaW593ikv_hJflvQ_vIK-56">
+          <mxGeometry x="190" y="9.11111111111111" width="181" height="173.11111111111111" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-41" value="" style="group" vertex="1" connectable="0" parent="xaW593ikv_hJflvQ_vIK-38">
+          <mxGeometry x="1" y="36.44444444444444" width="140" height="45.55555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-42" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/addPlayList&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-41">
+          <mxGeometry width="120" height="27.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-43" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(236, 97, 81));&quot;&gt;/deletePlayList&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-41">
+          <mxGeometry y="18.22222222222222" width="140" height="27.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-55" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/editPlayList&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-56">
+          <mxGeometry x="190" y="82" width="130" height="27.33" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-33" value="" style="group" vertex="1" connectable="0" parent="xaW593ikv_hJflvQ_vIK-56">
+          <mxGeometry y="154.88666666666666" width="140" height="45.55555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-34" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63)); font-size: 10px;&quot;&gt;/addType&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-33">
+          <mxGeometry width="120" height="27.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-35" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(236, 97, 81));&quot;&gt;/deleteType&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-33">
+          <mxGeometry y="18.22222222222222" width="140" height="27.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-30" value="" style="group" vertex="1" connectable="0" parent="xaW593ikv_hJflvQ_vIK-56">
+          <mxGeometry x="1" y="109.33111111111108" width="140" height="45.55555555555556" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-31" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63)); font-size: 10px;&quot;&gt;/addGenre&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-30">
+          <mxGeometry width="119.99999999999997" height="27.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-32" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(236, 97, 81));&quot;&gt;/deleteGenre&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-30">
+          <mxGeometry y="18.22222222222222" width="140" height="27.333333333333332" as="geometry" />
+        </mxCell>
+        <mxCell id="xaW593ikv_hJflvQ_vIK-57" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/editMusic&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;" vertex="1" parent="xaW593ikv_hJflvQ_vIK-56">
+          <mxGeometry x="1" y="82" width="129" height="27.33" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
