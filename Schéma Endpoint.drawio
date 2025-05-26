@@ -83,10 +83,10 @@
           <mxGeometry x="260" y="430" width="290" height="240" as="geometry" />
         </mxCell>
         <mxCell id="ejLephuHNBTfkFpX3HiP-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#242426);strokeColor=light-dark(#242426,#242426);movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;container=0;" vertex="1" parent="ejLephuHNBTfkFpX3HiP-1">
-          <mxGeometry width="289.99999999999994" height="130" as="geometry" />
+          <mxGeometry width="290" height="140" as="geometry" />
         </mxCell>
         <mxCell id="ejLephuHNBTfkFpX3HiP-4" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/MusicEJB&lt;/font&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt; -&amp;gt;[Admin]&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/PlayListEJB -&amp;gt;[Admin]&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/TypeEJB -&amp;gt;[Admin]&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/GenreEJB -&amp;gt;[Admin]&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/ShareEJB -&amp;gt;[User]&lt;/font&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;" vertex="1" parent="ejLephuHNBTfkFpX3HiP-1">
-          <mxGeometry x="29" y="-10" width="141" height="190" as="geometry" />
+          <mxGeometry x="29" y="60" width="141" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ejLephuHNBTfkFpX3HiP-5" value="EJB - List" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;fontColor=light-dark(#000000,#B2B0BF);" vertex="1" parent="ejLephuHNBTfkFpX3HiP-1">
           <mxGeometry x="20.299999999999997" y="9.11" width="95.69999999999999" height="27.33" as="geometry" />
