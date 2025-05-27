@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:138.0) Gecko/20100101 Firefox/138.0" version="27.0.9">
   <diagram name="Page-1" id="adGEc_nTsVdC9XLiCqks">
-    <mxGraphModel dx="610" dy="481" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="509" dy="400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,9 +13,6 @@
         <mxCell id="xaW593ikv_hJflvQ_vIK-55" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/editPlayList&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;" parent="QBsLuEhznaoQFIBBGWlC-17" vertex="1">
           <mxGeometry x="130" y="63.77999999999997" width="130" height="27.33" as="geometry" />
         </mxCell>
-        <mxCell id="xaW593ikv_hJflvQ_vIK-57" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/editMusic&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;" parent="QBsLuEhznaoQFIBBGWlC-17" vertex="1">
-          <mxGeometry x="1" y="82" width="129" height="27.33" as="geometry" />
-        </mxCell>
         <mxCell id="xaW593ikv_hJflvQ_vIK-6" value="API Endpoint - ADMIN" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;fontColor=light-dark(#000000,#B2B0BF);" parent="QBsLuEhznaoQFIBBGWlC-17" vertex="1">
           <mxGeometry x="21" y="9.111111111111086" width="160" height="27.333333333333332" as="geometry" />
         </mxCell>
@@ -25,11 +22,8 @@
             <mxPoint x="200" y="36.4444444444444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xaW593ikv_hJflvQ_vIK-18" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/addMusic&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;" parent="QBsLuEhznaoQFIBBGWlC-17" vertex="1">
-          <mxGeometry x="1" y="45.55555555555554" width="120" height="27.333333333333332" as="geometry" />
-        </mxCell>
-        <mxCell id="xaW593ikv_hJflvQ_vIK-28" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(236, 97, 81));&quot;&gt;/deleteMusic&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;" parent="QBsLuEhznaoQFIBBGWlC-17" vertex="1">
-          <mxGeometry x="1" y="63.77777777777777" width="140" height="27.333333333333332" as="geometry" />
+        <mxCell id="xaW593ikv_hJflvQ_vIK-18" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/addMusic [X]&lt;/font&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(236, 97, 81));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(236, 97, 81));&quot;&gt;/deleteMusic [X]&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(96, 114, 250));&quot;&gt;/editMusic&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;" parent="QBsLuEhznaoQFIBBGWlC-17" vertex="1">
+          <mxGeometry x="21.5" y="40.23" width="108.5" height="74.44" as="geometry" />
         </mxCell>
         <mxCell id="xaW593ikv_hJflvQ_vIK-43" value="&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(236, 97, 81));&quot;&gt;/deletePlayList&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;" parent="QBsLuEhznaoQFIBBGWlC-17" vertex="1">
           <mxGeometry x="131" y="45.5577777777778" width="140" height="27.333333333333332" as="geometry" />
