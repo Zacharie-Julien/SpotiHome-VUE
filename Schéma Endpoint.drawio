@@ -106,8 +106,8 @@
             <mxPoint x="200" y="36.4444444444444" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="awR5byoYQMOnw-AfEwXz-5" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/getAllMusics [X]&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/searchByType [X]&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/searchByGenre [X]&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;" vertex="1" parent="awR5byoYQMOnw-AfEwXz-1">
-          <mxGeometry x="30" y="36.44" width="150" height="74.44" as="geometry" />
+        <mxCell id="awR5byoYQMOnw-AfEwXz-5" value="&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/getAllMusics [X]&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/searchByType []&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/searchByGenre []&lt;/font&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;font style=&quot;font-size: 10px; color: light-dark(rgb(0, 0, 0), rgb(67, 194, 63));&quot;&gt;/searchByAutor []&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Nerd;container=0;" vertex="1" parent="awR5byoYQMOnw-AfEwXz-1">
+          <mxGeometry x="35" y="36.44" width="150" height="93.56" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
