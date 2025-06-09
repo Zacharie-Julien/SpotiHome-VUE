@@ -7,7 +7,6 @@
 ## 📌 Objectifs du projet
 
 - Offrir une alternative aux grandes plateformes musicales.
-- Mettre en avant des artistes indépendants et des contenus locaux.
 - Garantir l’hébergement en interne et la maîtrise des données utilisateurs.
 
 ---
