@@ -90,3 +90,101 @@
 
 ## 📄 Licence
 Projet pédagogique réalisé dans le cadre du BTS SIO SLAM — usage libre à des fins éducatives.
+
+---
+
+
+
+# 📦 SpotiHome – Services Front-End (JavaScript)
+
+Ce dossier regroupe les services JavaScript utilisés pour communiquer avec l’API REST de l’application **SpotiHome**, plateforme musicale à usage associatif.  
+Chaque fichier est dédié à un domaine fonctionnel spécifique (authentification, musique, genres, playlists, etc.).
+
+---
+
+## 📁 Fichiers inclus
+
+| Fichier               | Description                                                             |
+|------------------------|-------------------------------------------------------------------------|
+| `loginServices.js`     | Authentification des utilisateurs et redirection selon le rôle          |
+| `musicsServices.js`    | Récupération, ajout, et upload de musiques                              |
+| `genreServices.js`     | Gestion des genres musicaux (CRUD)                                      |
+| `typeServices.js`      | Gestion des types musicaux (CRUD)                                       |
+| `playListServices.js`  | Gestion des playlists et de leur contenu                                |
+
+---
+
+## 📡 Fonctionnement
+
+Chaque service utilise `fetch()` pour communiquer avec l'API `http://localhost:8080/spotiHome/webresources/`.  
+Les appels sont **asynchrones** (`async/await`) et incluent une **gestion d’erreur basique** (throw d’une `Error` en cas d’échec réseau).
+
+---
+
+## 🧩 Détail par service
+
+### 🔐 `loginServices.js`
+```js
+loginUser(login, password)
+```
+- Méthode `GET`
+- Authentifie l'utilisateur avec ses identifiants.
+- Redirige vers `/homeAdmin` ou `/home` selon le rôle contenu dans le JWT.
+
+---
+
+### 🎵 `musicsServices.js`
+- `getAllMusics()` – Liste toutes les musiques.
+- `getAllMusicByPlayListId(id)` – Liste les musiques d'une playlist.
+- `addMusic(...)` – Ajoute une musique (métadonnées uniquement).
+- `uploadMusicFile(file)` – Upload du fichier MP3 via `FormData`.
+
+---
+
+### 🎼 `genreServices.js`
+- `getAllGenre()` – Liste tous les genres.
+- `addGenre(label)` – Ajoute un genre.
+- `deleteGenreById(id)` – Supprime un genre par ID.
+- `upDateGenre(label, id)` – Met à jour un genre.
+
+---
+
+### 🧾 `typeServices.js`
+Fonctionne de manière identique à `genreServices.js`, mais pour les **types musicaux** (ex. : Instrumental, Acoustique, etc.)
+
+---
+
+### 📂 `playListServices.js`
+- `getPlayListById(id)` – Récupère la ou les playlists d’un auditeur.
+- `deletePlayListById(id)` – Supprime une playlist.
+- `addPlaylist(label, id_auditor)` – Crée une nouvelle playlist.
+- `updatePlaylist(label, id)` – Met à jour le nom d'une playlist.
+- `addMusicToPlaylist(id_music, id_playlist)` – Associe une musique à une playlist.
+
+---
+
+## ✅ Sécurité & Authentification
+
+- Toutes les requêtes critiques utilisent `credentials: 'include'` pour inclure les cookies d’authentification.
+- Aucune donnée sensible n’est stockée côté front.
+
+---
+
+## 🔧 À améliorer
+
+- Ajouter une vraie **gestion centralisée des erreurs** (ex. interception 401/403).
+- Extraire l’URL de base (`http://localhost:8080/...`) dans une variable de configuration.
+- Ajouter des `try/catch` dans les composants Vue pour traiter les erreurs côté utilisateur.
+
+---
+
+## 📝 Auteur
+
+Développé par **Zacharie Julien** – Projet présenté dans le cadre du **BTS SIO SLAM 2025**
+
+---
+
+## 📄 Licence
+
+Usage pédagogique uniquement. Reproduction interdite sans autorisation explicite.
+
