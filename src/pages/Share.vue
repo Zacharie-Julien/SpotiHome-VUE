@@ -11,7 +11,7 @@
                     </div>
                     <div></div>
                     <div>
-                        <a href="#" class="editButton" @click="addHandleClick(music.id, playList )">Partager</a>
+                        <a href="#" class="editButton" @click="handleAdd(music.id, music.label,)">Partager</a>
                     </div>
                 </div>
             </div>
@@ -22,13 +22,43 @@
 <script setup>
     import { ref, onMounted } from 'vue'
     import Card from '../components/Card.vue'
-    import { getAllMusics } from '../services/musicsServices.js'
+    import { getAllMusics, addSharedMusic } from '../services/musicsServices.js'
 
     const allMusics = ref([]);    
 
     getAllMusics().then((response) => {
         allMusics.value = response;
     });
+
+    function handleAdd(idMusic, musicName){
+        copierDansPressePapier(idMusic, musicName);
+        addSharedMusic(JSON.parse(atob(document.cookie.split('.')[1])).id, idMusic);
+
+    }
+
+    function copierDansPressePapier(idMusic, musicName) {
+        const now = new Date();
+
+        const formattedDate = `${now.getFullYear()}-${(now.getMonth() + 1)
+        .toString()
+        .padStart(2, '0')}-${now.getDate()
+        .toString()
+        .padStart(2, '0')} ${now.getHours()
+        .toString()
+        .padStart(2, '0')}:${now.getMinutes()
+        .toString()
+        .padStart(2, '0')}:${now.getSeconds()
+        .toString()
+        .padStart(2, '0')}`;
+
+        navigator.clipboard.writeText('http://localhost:5173/shared/'+ musicName +'/'+ JSON.parse(atob(document.cookie.split('.')[1])).id +'/'+ idMusic +'/' + formattedDate)
+        .then(() => {
+            alert("Lien copié dans le presse-papiers !");
+        }).catch(err => {
+            console.error("Erreur de copie :", err);
+            alert("Échec de la copie.");
+        });
+    }
 
 </script>
 

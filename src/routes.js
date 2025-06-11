@@ -7,16 +7,13 @@ import _type from './pages/_admin/_type.vue'
 import _genre from './pages/_admin/_genre.vue'
 import _home from './pages/_home.vue'
 import Login from './pages/Login.vue'
-import test from './pages/test.vue'
+import ReadShare from './pages/ReadShare.vue'
 import Unauthorized from './pages/errors/Unauthorized.vue'
 import Inscription from './pages/Inscription.vue'
 
 const route = [
     { path : '/', name: 'login', component : Login },
     { path : '/inscription', name: 'inscription', component : Inscription },
-    { path : '/home', name: 'home', component : Home, meta: {
-            requireRole : 'auditor'
-    }},
     { path : '/homeAdmin', name: 'homeAdmin', component : _home, meta: {
             requireRole : 'admin'
     }},
@@ -24,6 +21,9 @@ const route = [
             requireRole : 'admin'
     }},
     { path : '/genre', name: 'genre', component : _genre, meta: {
+            requireRole : 'admin'
+    }},
+    { path : '/music', name: 'music', component : Music, meta: {
             requireRole : 'admin'
     }},
     { path : '/playlist', name: 'playList', component : PlayList, meta: {
@@ -35,11 +35,11 @@ const route = [
     { path : '/viewPlaylist:id', name: 'viewPlaylist', component : ViewPlayList, meta: {
             requireRole : 'auditor'
     }},
-    { path : '/music', name: 'music', component : Music, meta: {
-            requireRole : 'admin'
+    { path : '/home', name: 'home', component : Home, meta: {
+            requireRole : 'auditor'
     }},
-    { path : '/test', name: 'test', component : test, meta: {
-            requireRole : 'admin'
+    { path : '/shared/:musicName/:idAuditeur/:idMusic/:dateShare', name: 'shared', component : ReadShare, meta: {
+            requireRole : 'auditor'
     }},
     { path : '/unauthorized', name: 'unauthorized', component : Unauthorized }
 ];
